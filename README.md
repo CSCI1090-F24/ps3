@@ -25,36 +25,36 @@ If you are having trouble with GitHub come to office hours.
 
 ### This problem set is due Monday, September 16, at 11:59pm EDT.
 
-## Part 1: Creating the perfect playlist
+## Part 1: Shopping list app
 
 Using IDLE, open a new file and save it into your `ps3-yourusername` repo as `ps3-part1.py`. This program will contain the following:
 
 1. A `main()` function that does the following:
 
-* Create an empty list variable called `songlist`.
-* Ask the user to enter a song they'd like in their playlist.
-   - **While** they enter anything but "DONE", append that song to `songlist`, and ask for another song.
-   - When they enter "DONE", stop asking them for more songs.
-* Call the function `save_playlist()` passing in the `songlist` argument. (See #2 below.)
-* Call the function `print_playlist()`. (See #3 below)
+* Create an empty list variable called `shoppinglist`.
+* Ask the user to enter an item to add to their shopping list.
+   - **While** they enter anything but "DONE", append that item to `shoppinglist`, and ask for another item.
+   - When they enter "DONE", stop asking them for more items.
+* Call the function `save_shoppinglist()` passing in the `shoppinglist` argument. (See #2 below.)
+* Call the function `print_shoppinglist()`. (See #3 below)
 
 
-2. A function `save_playlist(mylist)` where `mylist` is a list variable. This function will do the following:
+2. A function `save_shoppinglist(mylist)` where `mylist` is a list variable. This function will do the following:
 
-* Open a file called `my_playlist.txt` for writing.
-* Write out each element in the list argument `mylist` to `my_playlist.txt`, where each song is preceded by `Song X: ` where `X` is the number of the song in the list. Remember to insert a new line after each song.
-* Close `my_playlist.txt`
+* Open a file called `my_shoppinglist.txt` for writing.
+* Write out each element in the list argument `mylist` to `my_shoppinglist.txt`, where each item is preceded by `Item X: ` where `X` is the number of the item in the list. Remember to insert a new line after each item.
+* Close `my_shoppinglist.txt`
 
-3. A function called `print_playlist()`, which does the following:
+3. A function called `print_shoppinglist()`, which does the following:
 
-* Open the file `my_playlist.txt` for reading.
+* Open the file `my_shoppinglist.txt` for reading.
 * Print out each line in the file. Remember to remove the new line or to suppress the automatic new line with `print()`!
-* Close the file `my_playlist.txt`
-* Print the number of songs in the playlist.
+* Close the file `my_shoppinglist.txt`
+* Print the number of items in the shopping list.
 
 4. A call to `main()` at the end of the program.
 
-Here's a sample run of this program. Your output should look the same, but of course with different song names. You may use any fancy tricks with `print()` and string manipulation to make your output look like the sample.
+Here's a sample run of this program. Your output should look the same, but of course with different items. You may use any fancy tricks with `print()` and string manipulation to make your output look like the sample.
 
 <img src="img/part1.png" width=500>
 
@@ -113,9 +113,9 @@ Here's what your program should containL
 
 2. A function called `max_while(a, b, c)` that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **using a while loop**.
 
-3. **REQUIRED FOR CS MAJORS, BONUS FOR EVERYONE ELSE:** A function called `max_for(a, b,c)` that that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **using a for loop**. Remember that `range()` takes only integer arguments, so you will have to think creatively!
+3. A function called `max_for(a, b,c)` that that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **using a for loop**. Remember that `range()` takes only integer arguments, so you will have to think creatively!
 
-Your input and output messages must conform to the following sample runs. Keep in mind that if you implement step 3, the final line will be repeated by the `max_for()` function.
+Your input and output messages must conform to the following sample runs. Keep in mind that after you implement step 3, the final line will be repeated by the `max_for()` function.
 
 ```
 Enter a: -1
@@ -135,7 +135,7 @@ The max value is 2.02 when x is 0.06
 
 ## Deliverables
 
-1. `ps3-part1.py` (Part 1: Playlist)
+1. `ps3-part1.py` (Part 1: Shopping List)
 2. `ps3-part2.py` (Part 2: Interest Calculator)
 3. `ps3-part3.py` (Part 3: Maximizing f(x))
 
