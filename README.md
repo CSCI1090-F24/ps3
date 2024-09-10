@@ -1,5 +1,5 @@
 # Problem Set 3
-You have accepted the invitation in GitHub Classroom. If you have not cloned your copy of the repo (`ps3-yourusername`) down to your own machine using GitHub Desktop, do so now.
+If you are seeing this, you have accepted the invitation in GitHub Classroom. If you have not cloned your copy of the repo (`ps3-yourusername`) down to your own machine using GitHub Desktop, do so now.
 
 You will be adding three new Python files to your repo:
 
@@ -23,6 +23,8 @@ If you are having trouble with GitHub come to office hours.
 * The date.
 * "This code is my own work. I did not share my code or look at the code of another student. I did not consult ChatGPT, CoPilot, or another large language model."
 
+### This problem set is due Monday, September 16, at 11:59pm EDT.
+
 ## Part 1: Creating the perfect playlist
 
 Using IDLE, open a new file and save it into your `ps3-yourusername` repo as `ps3-part1.py`. This program will contain the following:
@@ -31,7 +33,7 @@ Using IDLE, open a new file and save it into your `ps3-yourusername` repo as `ps
 
 * Create an empty list variable called `songlist`.
 * Ask the user to enter a song they'd like in their playlist.
-   - While they enter anything but "DONE", append that song to `songlist`, and ask for another song.
+   - **While** they enter anything but "DONE", append that song to `songlist`, and ask for another song.
    - When they enter "DONE", stop asking them for more songs.
 * Call the function `save_playlist()` passing in the `songlist` argument. (See #2 below.)
 * Call the function `print_playlist()`. (See #3 below)
@@ -129,7 +131,7 @@ The max value is 2.02 when x is 0.06
 
 ---
 
-## Deadline: Monday, February 5, 2024, at 11:59pm EST
+## Deadline: Monday, September 16, at 11:59pm EDT.
 
 ## Deliverables
 
