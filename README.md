@@ -109,7 +109,7 @@ Here's what the equation will look like in Python:
 
 Here's what your program should containL
 
-1. A `main()` function that asks the user for $a$, $b$, and $c$. Then call `max_while()` passing in the user's input. (The main function should also call `max_for(a,b,c)` from step 3, if you implement it.)
+1. A `main()` function that asks the user for $a$, $b$, and $c$. Then call `max_while(a b,c)` passing in the user's input. Then call `max_for(a,b,c)`.
 
 2. A function called `max_while(a, b, c)` that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **using a while loop**.
 
